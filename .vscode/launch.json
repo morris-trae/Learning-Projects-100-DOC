@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Caesar Cipher Encrypt",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/colin.mcallister/Documents/Learning-Projects-100-DOC/Colins-Caesar-Cipher/caesar_cipher.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "-e",
+                "-m",
+                "abcd efgh ijkl mnop qrst uvwx yzab",
+                "-o",
+                "6"
+            ]
+        },
+        {
+            "name": "Caesar Cipher Decrypt",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/colin.mcallister/Documents/Learning-Projects-100-DOC/Colins-Caesar-Cipher/caesar_cipher.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "-d",
+                "-m",
+                "ghij klmn opqr stuv wxyz ABCD EFgh",
+                "-o",
+                "6"
+            ]
+        }
+    ]
+}
